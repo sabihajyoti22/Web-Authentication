@@ -1,5 +1,5 @@
 require("dotenv").config()
-const app = require("./6_Passport_GoogleAuth20/app")
+const app = require("./7_CookieBasedAuth/app")
 const PORT = process.env.PORT
 
 app.listen(PORT,()=>{
